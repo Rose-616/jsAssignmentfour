@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="main">
+        <p class="intro-text"><q>Empower your voice, shape the future – Welcome to voting, where every vote counts and every opinion matters.</q></p>
+        <!-- <h1 class=".intro-text">Empower your voice, shape the future – Welcome to voting, where every vote counts and every opinion matters.</h1> -->
+        
+        <input type="text" name="" id="new-option">
+        
+        <button onclick="addnewoption() " id="addbtn">ADD NAME</button>
+        <div>
+            <ol id="list">
+                <li>Hiba <button class="btn" id="btn1" onclick="addvote(this)">VOTE  1</button></li>
+                <li>Iqra <button class="btn" id="btn2" onclick="addvote(this)">VOTE 1</button></li>
+                <li>Amna <button class="btn" id="btn3" onclick="addvote(this)">VOTE 1</button></li>
+            </ol>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
